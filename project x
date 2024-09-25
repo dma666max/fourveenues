@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fourveenues - Celebraciones Memorables</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fff9f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff7f50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 2em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ffcc80;
+            padding: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ff5722;
+        }
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+        section h2 {
+            font-size: 2.5em;
+            color: #ff7f50;
+        }
+        section p {
+            font-size: 1.2em;
+            color: #333;
+        }
+        .celebration-ideas {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+        }
+        .celebration-ideas div {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            width: 30%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Fourveenues
+    </header>
+
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Servicios</a>
+        <a href="#">Eventos</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+    <section>
+        <h2>Tu Lugar Perfecto para Celebrar</h2>
+        <p>En Fourveenues, nos especializamos en brindarte los mejores lugares para tus celebraciones inolvidables. Desde bodas hasta eventos corporativos, ¡tenemos el espacio perfecto para ti!</p>
+
+        <div class="celebration-ideas">
+            <div>
+                <h3>Bodas</h3>
+                <p>Encuentra el ambiente ideal para tu boda soñada.</p>
+            </div>
+            <div>
+                <h3>Cumpleaños</h3>
+                <p>Organiza la mejor fiesta de cumpleaños con nuestros lugares exclusivos.</p>
+            </div>
+            <div>
+                <h3>Eventos Corporativos</h3>
+                <p>Ofrecemos los espacios perfectos para tus eventos profesionales.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024 Fourveenues - Celebraciones Memorables. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
